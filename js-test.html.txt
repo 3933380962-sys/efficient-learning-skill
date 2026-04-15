@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>JS基础练习</title>
+</head>
+<body>
+  <h1>JavaScript 基础练习</h1>
+  <p>按 F12 打开控制台看结果</p>
+
+  <script>
+    // 1.变量定义
+    let name = "张三";
+    const age = 20;
+
+    // 2.变量类型
+    let num = 10;
+    let str = "hello";
+    let flag = true;
+
+    // 3.表达式
+    let sum = num + 5;
+
+    // 4.流程控制
+    if (age >= 18) {
+      console.log("成年");
+    } else {
+      console.log("未成年");
+    }
+
+    // 5.函数
+    function add(a, b) {
+      return a + b;
+    }
+    console.log(add(2, 3));
+  </script>
+</body>
+</html>
